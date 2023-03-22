@@ -1,0 +1,26 @@
+body {
+text-align: center;
+
+}
+
+input, p{
+
+    margin: 20px;
+}
+
+input#salaryInput
+{
+    margin-left: 5px;
+}
+
+table, th, td {
+    border: 1px solid;
+  }
+
+table {
+    border: 1px solid;
+    width: 50%;
+    margin: auto;
+  }
+
+

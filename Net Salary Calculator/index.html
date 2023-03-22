@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Net Salary Calculator</title>
+    <link rel="stylesheet" href="./style.css"/>
+  </head>
+  <script type="application/javascript"> </script>
+  <body>
+    <h1>Net Salary Calculator</h1>
+
+   <label for="salaryInput">Enter Salary Here(Ksh):</label>
+   <input type="number" id="salaryInput" name="salaryInput" 
+    min="0" value="5000">
+   <form>
+      <input id="button" type="button" value="Calculate TAX" />
+    </form>
+    
+    <table>
+     <tr>
+      <th>Payee Tax</th>
+      <th>NHIF Deduct </th>
+      <th>NSSF Deduct</th>
+      <th>Net Salary</th>
+      </tr>
+      <tr>
+        <td id="payee"></td>
+        <td id="nhif"></td>
+        <td id="nssf"></td>
+        <td id="net"></td>
+      </tr>
+    </table>
+   
+    <script type="text/javascript" src="./index.js"></script>
+  </body>
+</html>
+
