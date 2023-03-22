@@ -51,4 +51,4 @@ function update(){
 
 
 
-console.log(calculateDemerit(150));
+console.log(calculateDemerit(150)); //tester for demerit function

@@ -1,15 +1,15 @@
-const button = document.querySelector('#button');
-let gradeIn = document.getElementById('grade');
-const output=document.querySelector('#output');
+const button = document.querySelector('#button'); //action button
+let gradeIn = document.getElementById('grade');  // data to work on
+const output=document.querySelector('#output'); //element <p> to retun result
 
 
 
 function calculateGrade(grade){
     let letter;
   
-        
+//if statment goes from up to down and also assign hex color values
      if(grade>100)
-       {letter="Invalid"
+       {letter="Invalid"  //added invalid response to numbers greater than 100
        output.style.color="#ba1414";              }
         else if (grade>79){
           letter="A";
@@ -32,7 +32,7 @@ function calculateGrade(grade){
             output.style.color="#ba1414";
           }
           else{
-            letter="Invalid"
+            letter="Invalid"  // Invalid for any number outside tange of 0-100
             output.style.color="#ba1414";
           }
       return letter;
@@ -42,9 +42,7 @@ button.addEventListener('click', update);
 
 function update(){
   let number =gradeIn.value;
-  console.log(number);
-
-
+  console.log(number);  // to test
 let letter=calculateGrade(number)
 output.textContent=letter;
 
