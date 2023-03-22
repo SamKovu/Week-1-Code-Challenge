@@ -1,0 +1,23 @@
+body {
+text-align: center;
+
+}
+
+input, p{
+
+    margin: 20px;
+}
+
+input#grade{
+
+    margin-left: 5px;
+}
+
+
+p{
+    font-size: 70px;
+    
+}
+
+
+

@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    }
+    
+    input, p{
+    
+        margin: 20px;
+    }
+    
+    input#speed{
+    
+        margin-left: 5px;
+    }
+    
+    
+    p{
+        font-size: 45px;
+        
+    }
+    
+
