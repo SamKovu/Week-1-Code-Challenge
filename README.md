@@ -6,16 +6,21 @@ HTML, CSS, JavaScript
 
 ## Projects Description:
 
-###Student Grade Generator
+### Student Grade Generator
 A generator that accepts number input from 0-100
 Returns a calculated grade character "A-E" based on the number
+- A > 79
+- B > 60 to 79
+- C > 59 to 49
+- D > 40 to 49
+- E > less 40
 
-###Speed Detector
+### Speed Detector
 A detector that accepts number input of presumably a vehicles speed
 Returns if the speed is below the limit and caluclates demerits if above
 Will return Suspend License if demerit points accumulate up to a certain value
 
-###Net Salary Calculator
+### Net Salary Calculator
 A salry tax claculator that calulates and returns:
 Payee Tax
 NHIF and NSSF Deduction
@@ -24,17 +29,17 @@ At the moment it does not calculate personal relief
 as that isnot standard
 
 
-##Getting Started:
+## Getting Started:
 Each folder contain a different code challenge. 
 The webpages are functional in: 
-1.Acquiring the input.
-2.Displaying the ouput.
+1. Acquiring the input.
+2. Displaying the ouput.
 
 
-##Usage:
+## Usage:
 Open the index.html in each folder to input and test the data.
 Open index.js or my.js to see functions and logic for calculating output.
 
-##Author: Samuel Gichuhi
+## Author: Samuel Gichuhi
 License: None
 
